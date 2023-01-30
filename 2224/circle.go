@@ -6,7 +6,7 @@ type Circle struct {
 	radius float64
 }
 
-func (c *Circle) area() float64 {
+func (c Circle) area() float64 {
 	return (22 / 7) * (c.radius * c.radius)
 }
 
